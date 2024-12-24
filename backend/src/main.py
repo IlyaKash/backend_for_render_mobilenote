@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from src.notes.router import router as router_notes
+from notes.router import router as router_notes
 from auth.router import router as auth_router
 
 from contextlib import asynccontextmanager
